@@ -17,6 +17,41 @@
 
 </head>
 <body>
+    <h1>video ah</h1>
+    <p>watch video - choose size</p>
+
+    <!-- video size control buttons -->
+    <div class="sizeControls">
+        <strong>video size:</strong>
+        <button onclick="changeSize('small')">Small</button>
+        <button onclick="changeSize('medium')">Medium</button>
+        <button onclick="changeSize('large')">Large</button>
+        <button onclick="changeSize('full')">Full</button> <!-- fills the screen -->
+    </div>
+
+    <!-- video player -->
+    <video id="myVideo" class="full" controls>
+        <sourcesrc="video.mp4" type="video/mp4">
+
+        sorry video not working
+    </video>
+
+    <script>
+        function changeSize(size) {
+            const video = document.getElementById("myVideo");
+
+            video.classList.remove(
+                "small",
+                "medium",
+                "large",
+                "full"
+            )
+
+            video.classList.add(size);
+        }
+
+    </script>
+    
     
 </body>
 </html>

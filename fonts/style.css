@@ -9,3 +9,21 @@
     font-variation-settings:
         "wdth" 100;
 } */
+
+/* diff video sizes */
+
+/* small vid 320px wide */
+/* video is a built in class */
+video.small { 
+    width: 320px;
+}
+
+/* medium video 480px */
+video.medium {
+    width: 480px;
+}
+
+/* large 720px */
+video.large {
+    width: 720px;
+}
