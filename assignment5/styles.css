@@ -475,6 +475,9 @@ footer a {
         color: gray;
     }
     .hamburger-menu {
+        grid-column: auto;
+    }
+    .menu-deployed {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -502,7 +505,7 @@ footer a {
         background-color: white;    
     }
     nav {
-        margin-top: 0;
+        margin-top: 0 auto;
         margin-bottom: 50px;
         width: 100%;
         box-sizing: border-box;
@@ -621,7 +624,7 @@ footer a {
         gap: 16px;
     }
 
-    
+
 
 
 
